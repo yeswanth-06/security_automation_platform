@@ -1,0 +1,9 @@
+title: Test Rule for SAP
+status: test
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        CommandLine: '*.exe'
+    condition: selection

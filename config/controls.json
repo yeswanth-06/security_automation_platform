@@ -1,0 +1,8 @@
+{
+    "TEST-1": {
+        "name": "Test Command - List Files",
+        "type": "local_command",
+        "command": "dir",
+        "expected_pattern": "sap.py"
+    }
+}
